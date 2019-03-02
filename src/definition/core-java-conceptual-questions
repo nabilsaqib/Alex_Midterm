@@ -1,28 +1,44 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A. A programming language is a computer language engineered to create a standard form of commands that can be interpreted
+into a code understood by a machine
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. Java Compiler: This tool reads class and interface definitions and compiles them into bytecode class files.
+  Java Interpreter: It is used to interpret the .class Java files that have been compiled by Java compiler.
+  Java Disassembler: It is the disassembly tool of JDK that disassembles one or more class files.
+  Java Header File Generator: It generates header and source files that are needed to implement native methods.
+  Java Documentation: It helps to maintain code with proper documentation.
+  Java Debugger: It provides inspection and debugging of a local or remote Java Virtual Machine.
+  Java Applet Viewer: It is used to view the Java applets.
 
 What is IDE?
-A.
+A. IDE or integrated development environment is a software suite that incorporates basic tools required to write
+  and test software.
 What are the IDEs available in the market to support java?
+A. IntelliJ, NetBeans, Eclipse,,Codenvy, DrJava, BlueJ, JGrasp.
+
 Explain the entire java life cycle.
+A. After writing a source code the javac compiler converts it into byte code. Byte code is in the form of .class file.
+The class file then get loaded into the JVM using java loader. JVM then sends all the information to the operating
+system which shows the output.
+
 what is class?
+A. class is the blueprint that describes the behavior and state of the object of its type.
 What is object?
+A. An object is an instance of a class.
 What is the entry point of an application?
+A. The main method.
 Why main is static?
+A. Main method is static so that it can be accessible to the Operating System without object creation.
 Which class is the superclass of all classes?
+A. java.lang.object
 What is difference between path and classpath variables?
+A. Path is an environment variable which is used by the operating system to find the executables.
+   Classpath is an environment variable which is used by the Java compiler to find the path of classes.
+   What is the difference between an Interface and Abstract class?
+
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
