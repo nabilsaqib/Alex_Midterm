@@ -1,11 +1,50 @@
 package datastructure;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+
+
 public class DataReader {
 
 	public static void main(String[] args) {
+
+		/*DataReader dr = null;
+		BufferedReader br = null;
+		String path = "/src/data/self-driving-car.txt";
+
+		try {
+			dr = new DataReader(path);
+			br = new BufferedReader(br);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		String st = " ";
+		try {
+			while((st = br.readLine())!=null) {
+				System.out.println(st);
+
+			}
+		}	catch (IOException e) {
+			e.printStackTrace();
+		}finally {
+			if (dr != null) {
+				dr = null;
+			}
+			if(br != null) {
+				br = null;
+			}
+		}
+	}*/
+
+
+
+
+
 		/*
 		 * User API to read the below textFile and print to console.
-		 * Use BufferedReader class. 
+		 * Use BufferedReader class.
 		 * Use try....catch block to handle Exception.
 		 *
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
@@ -21,7 +60,5 @@ public class DataReader {
 		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
 
 
-
 	}
-
 }
