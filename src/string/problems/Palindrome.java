@@ -8,7 +8,7 @@ public class Palindrome {
          */
         String wordOne = "MOM";
         String wordTwo = "DAD";
-        String wordThree = "MADAM";
+        String wordThree = "Raju";
 
         System.out.println(isPalindrome(wordOne));
         System.out.println(isPalindrome(wordTwo));

@@ -8,7 +8,7 @@ public class Trainee implements Comparable<Trainee> {
 
     public Trainee(){}
 
-    public Trainee(String firstName, String lastName, int numberOfExercisesSolved) {
+public Trainee(String firstName, String lastName, int numberOfExercisesSolved) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.numberOfExercisesSolved = numberOfExercisesSolved;

@@ -29,7 +29,6 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-
 		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
 
 		FileReader fr = null;
@@ -38,7 +37,7 @@ public class DataReader {
 		String store = "";
 
 		try{
-			fr = new FileReader("\\Users\\Alex\\Documents\\PNT");
+			fr = new FileReader("/Users/Alex/Documents/PNT/test.txt");
 
 
 		}catch(Exception e){
@@ -50,12 +49,10 @@ public class DataReader {
 			while((line =br.readLine())!= null){
 				System.out.println(line);
 				store+= line;
-
 			}
 		}catch(Exception e){
 			System.out.println("System was not able to read attached file ");
 		}
-
 		String[] storeArray = store.split(" ");
 
 		Stack<String> myStack = new Stack<String>();
