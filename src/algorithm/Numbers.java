@@ -39,15 +39,34 @@ public class Numbers {
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "insertion_sort", "insertingNumbers");
+		numbers = connectToSqlDB.readDataBase("insertion_sort", "insertingNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+		numbers.clear();
 
-		//By following above, Continue for rest of the Sorting Algorithm....
+		//Bubble sort
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "bubble_sort", "bubbleNumbers");
+		numbers = connectToSqlDB.readDataBase("bubble_sort", "bubbleNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+		numbers.clear();
 
-
-
-
-
-
-
+		//Merge Sort
+		algo.mergeSort(num);
+		long mergeSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in merge Sort take: " + mergeSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "merge_sort", "mergeNumbers");
+		numbers = connectToSqlDB.readDataBase("merge_sort", "mergeNumbers");
+		printValue(numbers);
+		n = num.length;
+		randomize (num, n);
+		numbers.clear();
 
 
 		//Come to conclusion about which Sorting Algo is better in given data set.
