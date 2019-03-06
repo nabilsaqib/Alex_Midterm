@@ -20,9 +20,9 @@ public interface Employee 	 {
 
 	public void employeeSalary();
 
-	public void employeeMedical();
-
 	public void employeeBenefits();
+
+	public void gender();
 
 
 	}
