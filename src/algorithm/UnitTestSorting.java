@@ -23,9 +23,21 @@ public class UnitTestSorting {
 
         //Now implement Unit test for rest of the soring algorithm...................below
 
+        sort.insertionSort(unSortedArray);
+        //verify if the unsorted array is sorted by the insertion sort algorithm.
+        try {
+            Assert.assertEquals(sortedArray, unSortedArray, "Not Sorted");
+        }catch(Exception ex){
+            ex.getMessage();
+        }
 
-
-
+        sort.bubbleSort(unSortedArray);
+        //verify if the unsorted array is sorted by the bubble sort algorithm.
+        try {
+            Assert.assertEquals(sortedArray, unSortedArray, "Not Sorted");
+        }catch(Exception ex){
+            ex.getMessage();
+        }
 
     }
 }
