@@ -1,4 +1,4 @@
-/*
+
 package json.parser;
 
 import sun.plugin2.message.GetAppletMessage;
@@ -6,8 +6,8 @@ import sun.plugin2.message.GetAppletMessage;
 public class CnnAPI {
 
 }
-    */
-/*
+
+/**
       You can get API_KEY from this below link. Once you have the API_KEY, you can fetch the top-headlines news.
       https://newsapi.org/s/cnn-api
 
@@ -44,9 +44,6 @@ public class CnnAPI {
 
      *//*
 
-
-       */
-/* https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=645a1d50c742457c82c06ee4fedf1bae
 }
  {
 
@@ -453,4 +450,4 @@ https://newsapi.org/v2/everything?sources=cnn&apiKey=645a1d50c742457c82c06ee4fed
 "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
 
 }]
-*/
+}
