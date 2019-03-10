@@ -38,6 +38,21 @@ public class UnitTestSorting {
         }catch(Exception ex){
             ex.getMessage();
         }
+        sort.mergeSort(unSortedArray);
+        //verify if the unsorted array is sorted by the merge sort algorithm.
+        try {
+            Assert.assertEquals(sortedArray, unSortedArray, "Array is not Sorted");
+        }catch(Exception ex){
+            ex.getMessage();
+        }
+
+        sort.heapSort(unSortedArray);
+        //verify if the unsorted array is sorted by the heap sort algorithm.
+        try {
+            Assert.assertEquals(sortedArray, unSortedArray, "Not Sorted");
+        }catch(Exception ex){
+            ex.getMessage();
+        }
 
     }
 }

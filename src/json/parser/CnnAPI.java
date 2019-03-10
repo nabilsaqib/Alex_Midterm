@@ -1,4 +1,5 @@
 
+/*
 package json.parser;
 
 import sun.plugin2.message.GetAppletMessage;
@@ -7,6 +8,7 @@ public class CnnAPI {
 
 }
 
+*/
 /**
       You can get API_KEY from this below link. Once you have the API_KEY, you can fetch the top-headlines news.
       https://newsapi.org/s/cnn-api
@@ -43,6 +45,8 @@ public class CnnAPI {
 	   Store into choice of your database and retrieve.
 
      *//*
+*/
+/*
 
 }
  {
@@ -451,3 +455,4 @@ https://newsapi.org/v2/everything?sources=cnn&apiKey=645a1d50c742457c82c06ee4fed
 
 }]
 }
+*/
