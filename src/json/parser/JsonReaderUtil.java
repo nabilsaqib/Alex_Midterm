@@ -56,16 +56,11 @@ public class JsonReaderUtil {
                 //you code start here
                 String empEmail = jsonobject.get("empEmail").toString();
                 System.out.println(empEmail);
-
-
             }catch(Exception ex){
-
             }
         }
-        //Print to the console.
         for(Employee entry:empList){
             System.out.println(entry.getEmpEmail()+" "+entry.getEmpName()+" "+entry.getSalary()+" "+entry.getDepartment());
         }
     }
-
 }
